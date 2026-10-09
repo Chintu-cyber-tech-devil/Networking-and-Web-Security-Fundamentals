@@ -2,7 +2,7 @@
 Practical networking and web security fundamentals covering IP addressing, DNS, TCP/UDP, HTTP/HTTPS, and HTTP security headers.
 
 
-Networking , IPS , DNS , and TCP/UOP Protocols 
+1) Networking , IPS , DNS , and TCP/UOP Protocols 
        The foundation of every Cyber attack start here Understand  how the data moves across network-then learn ho wto intercept , redirect and analyse it 
        1) Network Types 
        2) OSI Model 
@@ -13,12 +13,12 @@ Networking , IPS , DNS , and TCP/UOP Protocols
        7) 3-way Handshake 
        8) Ports & Nmap 
 
-What is Network?
+2) What is Network?
     Devices Connected to Communicate and Share Data 
                     (or) 
      Who is Connected ? What are they communicating ?How ?And  where is the weakness? 
 
-Types :
+3) Types :
     1) LPN : Local area Network 
             ( Devices in Same building/home .Your home wi-fi is LAN .Uses Ethernet  (or) wi-fi Low Latency ,high Speed ) 
     2) WAN : Wide Area Network 
