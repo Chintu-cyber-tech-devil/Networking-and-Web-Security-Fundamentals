@@ -2,8 +2,10 @@
 Practical networking and web security fundamentals covering IP addressing, DNS, TCP/UDP, HTTP/HTTPS, and HTTP security headers.
 
 
-1) Networking , IPS , DNS , and TCP/UOP Protocols 
-       The foundation of every Cyber attack start here Understand  how the data moves across network-then learn ho wto intercept , redirect and analyse it 
+1) Networking , IPS , DNS , and TCP/UOP Protocols
+
+The foundation of every Cyber attack start here Understand  how the data moves across network-then learn ho wto intercept , redirect and analyse it
+   
        1) Network Types 
        2) OSI Model 
        3) IPv4 / IPv6 
