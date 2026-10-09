@@ -1,16 +1,11 @@
 Think of an IP adress like  Your Home's postel address without it the postman (router) can't deliver your letter (data packet ) to the right house IPv4 is like a 6-digit PIN code -running out globally IPv6 is like a full GPS Coordinate-Virtually Unlimited adress for Every Device  on Earth 
 
-
-
 IPv4-32-BIT (4octels ) :-
-
 
 commands  for  networking  Commands 
 
  1 )  checking  IP Adress 
   
-      
-
 └─$ ip a                               => show all network interfaces & IP
 
 └─$ ifconfig                           => same (older command)
@@ -47,81 +42,87 @@ commands  for  networking  Commands
 
 
 
-## Example: Finding Google's IP Address
 
-A website such as Google uses a domain name (`google.com`). DNS translates the domain name into an IP address so your device can connect to the website.
 
-### 1. Domain Name
 
-```text
-google.com
-```
 
-### 2. Find Google's IP Address
 
-On Linux or Kali Linux, open the terminal and run:
 
-```bash
-nslookup google.com
-```
 
-Alternatively:
 
-```bash
-dig google.com
-```
 
-### 3. Example Output
 
-```text
-Name:    google.com
-Address: 142.250.XXXX.XXX
-```
 
-*Note: The `X` values are placeholders. Your actual result may differ depending on your location, DNS resolver, and Google's network.*
 
-### 4. Open Google Using Its IP Address
 
-Copy an IP address returned by your DNS lookup and try opening it in your browser:
 
-```text
-https://142.250.XXXX.XXX
-```
 
-This might not display Google correctly because HTTPS certificates, virtual hosting, and Google's infrastructure rely on more than just the IP address.
 
-### 5. What Happens Behind the Scenes?
 
-```text
-You enter google.com
-         |
-         v
-Your device queries DNS
-         |
-         v
-DNS returns an IP address
-         |
-         v
-Your browser connects to the server
-         |
-         v
-TLS secures the HTTPS connection
-         |
-         v
-Google's webpage loads
-```
 
-### 6. Cybersecurity Learning
 
-This example teaches you:
 
-- DNS resolution
-- IPv4 and IPv6 addresses
-- DNS tools: `nslookup` and `dig`
-- HTTPS and TLS
-- How domain names and IP addresses work together
 
-**Practice task:** Run `nslookup google.com` and `dig google.com` on Kali Linux. Record the output, compare the results, and explain why the IP addresses might differ.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
