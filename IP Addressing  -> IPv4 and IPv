@@ -2,6 +2,11 @@ Think of an IP adress like  Your Home's postel address without it the postman (r
 
 IPv4-32-BIT (4octels ) :-
 
+
+commands  for  networking  Commands 
+
+
+
 ## Example: Finding Google's IP Address
 
 A website such as Google uses a domain name (`google.com`). DNS translates the domain name into an IP address so your device can connect to the website.
