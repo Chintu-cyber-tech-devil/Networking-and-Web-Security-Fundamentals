@@ -16,6 +16,7 @@ The foundation of every Cyber attack start here Understand  how the data moves a
        8) Ports & Nmap 
 
 2) What is Network?
+
     Devices Connected to Communicate and Share Data 
                     (or) 
      Who is Connected ? What are they communicating ?How ?And  where is the weakness? 
