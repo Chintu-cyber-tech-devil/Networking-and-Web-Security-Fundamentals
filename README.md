@@ -42,4 +42,9 @@ Practical networking and web security fundamentals covering IP addressing, DNS, 
              3) Network      =>   IP , ICMP , Routing 
              2) Data Link    =>   MAC Address , ARP , Switch 
              1) Physical     =>   Cables , Wi-fi signal ,hubs 
+
+ 5) knowing which OSI Layer an attack targets tell you exactly which tools to use -Nmap ( L3/4) ,Burp Suits (L7) Wireshark(L2+)  
+
              
+
+ 
