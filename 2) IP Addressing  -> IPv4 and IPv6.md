@@ -1,4 +1,4 @@
-# Think of an IP adress like  Your Home's postel address without it the postman (router) can't deliver your letter (data packet ) to the right house IPv4 is like a 6-digit PIN code -running out globally IPv6    is like a full GPS Coordinate-Virtually Unlimited adress for Every Device  on Earth 
+Think of an IP adress like  Your Home's postel address without it the postman (router) can't deliver your letter (data packet ) to the right house IPv4 is like a 6-digit PIN code -running out globally IPv6    is like a full GPS Coordinate-Virtually Unlimited adress for Every Device  on Earth 
 
 #  IPv4-32-BIT (4octels ) :-
      
@@ -13,7 +13,7 @@
       Class B = 172.168.0.0/12 - 1M host 
       Class C :  192.168.0.0/16  - 65K host 
       
-# CIDR : /24 = 256 IPS (254 usable ) ./16 = 65,536 IPS 
+ CIDR : /24 = 256 IPS (254 usable ) ./16 = 65,536 IPS 
 Smaller Prefix = bigger network 
 
 
