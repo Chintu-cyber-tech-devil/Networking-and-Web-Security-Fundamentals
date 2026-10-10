@@ -43,4 +43,5 @@ This requests an IPv4 connection attempt; a reply is not guaranteed.
 **Cybersecurity connection:** Understanding IP addresses helps security professionals investigate DNS resolution, network traffic, connectivity, and potential network threats.
 
 
-<img width="690" height="1024" alt="image" src="https://github.com/user-attachments/assets/d17c1468-09ad-4484-89ec-41234187095c" />
+<img width="690" height="1024" alt="image" src="https://github.com/user-attachments/assets/c5113eff-421d-4b02-95a4-3fa312d8d17b" />
+
