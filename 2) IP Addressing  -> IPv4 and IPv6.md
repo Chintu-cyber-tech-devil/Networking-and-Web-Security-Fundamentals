@@ -4,9 +4,9 @@ IPv4-32-BIT (4octels ) :-
      
    # dotted-decimal notation 
    
-   IP = 192.168.1.105
-   Subnet = 255.255.255.0
-   Gateway = 192.168.1.1
+     IP = 192.168.1.105
+     Subnet = 255.255.255.0
+     Gateway = 192.168.1.1
    
    # Private Range-Net Internet routable 
      Class A = 10.0.0.0/0 - 16M host 
