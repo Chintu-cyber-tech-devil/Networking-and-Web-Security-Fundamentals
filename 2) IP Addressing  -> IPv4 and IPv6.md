@@ -4,14 +4,14 @@ Think of an IP adress like  Your Home's postel address without it the postman (r
      
    # dotted-decimal notation 
    
-     IP = 192.168.1.105
-     Subnet = 255.255.255.0
-     Gateway = 192.168.1.1
+      IP = 192.168.1.105
+      Subnet = 255.255.255.0
+      Gateway = 192.168.1.1
    
    # Private Range-Net Internet routable 
-     Class A = 10.0.0.0/0 - 16M host 
-     Class B = 172.168.0.0/12 - 1M host 
-     Class C :  192.168.0.0/16  - 65K host 
+      Class A = 10.0.0.0/0 - 16M host 
+      Class B = 172.168.0.0/12 - 1M host 
+      Class C :  192.168.0.0/16  - 65K host 
 
    CIDR : /24 = 256 IPS (254 usable ) ./16 = 65,536 IPS 
    Smaller Prefix = bigger network 
@@ -25,7 +25,7 @@ Think of an IP adress like  Your Home's postel address without it the postman (r
         full:2001:Odb8:85a3:0000::8a2e:0370:7334
    # Compressed (:: = all zeror)
         short : 2001:db8::0000::8a2e:0370:7334
-  # Why IPv6 matters to Hackers
+   # Why IPv6 matters to Hackers
         1) 340 undecillion address (never runs out )
         2) Built-in IPsec ( Encryption by design)
         3) No NAT- every device is publicly reachable)
