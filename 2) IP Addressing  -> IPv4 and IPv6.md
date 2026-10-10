@@ -18,6 +18,19 @@ Smaller Prefix = bigger network
 
 
 
+# commands for  IPv4
+       ip -4 addr                    (Display IPv4 addresses)
+       ip -4 route                   (Display IPv4 routing table)
+       ping -4 -c 4 google.com       (Test IPv4 connectivity)
+        nslookup -type=A google.com   (Find Google's IPv4 address)
+     dig A google.com              (Query IPv4 DNS records)
+     ip -4 neigh                   (Display IPv4 neighbors)
+    traceroute -4 google.com      (Trace IPv4 network route)
+     nmap -4 <IPv4-address>        (Scan an IPv4 host)
+    ip -4 link show               (Display network interfaces)
+    ss -4 -lntup                  (Display IPv4 listening services)
+
+
 
 # IPV6 -128-BIT (B Hex Group)
 
@@ -33,6 +46,25 @@ Smaller Prefix = bigger network
 
   =>  Attack : IPv6 is often misconfigured  or excluded from firewall rules Attackers use it  to Completely bypass IPv4-only Security bypass IPv4-only Security Controls 
 
+
+  # Commands for IPv6 
+       
+         ip -6 addr                    (Display IPv6 addresses)
+       ip -6 route                   (Display IPv6 routing table)
+         ping -6 -c 4 google.com       (Test IPv6 connectivity)
+       nslookup -type=AAAA google.com (Find Google's IPv6 address)
+      dig AAAA google.com           (Query IPv6 DNS records)
+     ip -6 neigh                   (Display IPv6 neighbors)
+     traceroute -6 google.com      (Trace IPv6 network route)
+     nmap -6 <IPv6-address>        (Scan an IPv6 host)
+     ip -6 link show               (Display network interfaces)
+     ss -6 -lntup                  (Display IPv6 listening services)
+    cat /proc/net/if_inet6        (Display kernel IPv6 interface addresses)
+
+
+
+
+    
 # commands  for  networking  Commands 
 
  1 )  checking  IP Adress 
