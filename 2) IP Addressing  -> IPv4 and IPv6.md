@@ -1,6 +1,6 @@
-Think of an IP adress like  Your Home's postel address without it the postman (router) can't deliver your letter (data packet ) to the right house IPv4 is like a 6-digit PIN code -running out globally IPv6 is like a full GPS Coordinate-Virtually Unlimited adress for Every Device  on Earth 
+# Think of an IP adress like  Your Home's postel address without it the postman (router) can't deliver your letter (data packet ) to the right house IPv4 is like a 6-digit PIN code -running out globally IPv6    is like a full GPS Coordinate-Virtually Unlimited adress for Every Device  on Earth 
 
-* IPv4-32-BIT (4octels ) :-
+#  IPv4-32-BIT (4octels ) :-
      
    # dotted-decimal notation 
    
@@ -12,14 +12,14 @@ Think of an IP adress like  Your Home's postel address without it the postman (r
       Class A = 10.0.0.0/0 - 16M host 
       Class B = 172.168.0.0/12 - 1M host 
       Class C :  192.168.0.0/16  - 65K host 
-
-   CIDR : /24 = 256 IPS (254 usable ) ./16 = 65,536 IPS 
-   Smaller Prefix = bigger network 
-
-
+      
+# CIDR : /24 = 256 IPS (254 usable ) ./16 = 65,536 IPS 
+Smaller Prefix = bigger network 
 
 
-* IPV6 -128-BIT (B Hex Group)
+
+
+# IPV6 -128-BIT (B Hex Group)
 
    # Full Notation
         full:2001:Odb8:85a3:0000::8a2e:0370:7334
@@ -33,7 +33,7 @@ Think of an IP adress like  Your Home's postel address without it the postman (r
 
   =>  Attack : IPv6 is often misconfigured  or excluded from firewall rules Attackers use it  to Completely bypass IPv4-only Security bypass IPv4-only Security Controls 
 
-* commands  for  networking  Commands 
+# commands  for  networking  Commands 
 
  1 )  checking  IP Adress 
   
