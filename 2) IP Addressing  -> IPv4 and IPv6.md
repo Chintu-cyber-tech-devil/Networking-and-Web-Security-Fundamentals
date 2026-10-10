@@ -63,6 +63,23 @@ Smaller Prefix = bigger network
 
 
 
+### IPv4 vs IPv6
+
+| Feature              | IPv4                  | IPv6                        |
+| -------------------- | --------------------- | --------------------------- |
+| Address size         | 32 bits               | 128 bits                    |
+| Number of groups     | 4 octets              | 8 groups                    |
+| Format               | Decimal               | Hexadecimal                 |
+| Separator            | Dot (`.`)             | Colon (`:`)                 |
+| Example              | `8.8.8.8`             | `2001:4860:4860::8888`      |
+| DNS record           | A                     | AAAA                        |
+| Bits per group       | 8 bits                | 16 bits                     |
+| Address notation     | Dotted decimal        | Colon-separated hexadecimal |
+| Address availability | Limited address space | Vast address space          |
+
+
+
+
 
     
 # commands  for  networking  Commands 
