@@ -1,45 +1,58 @@
-### IPv6 — 128-bit Address (8 Groups)
+Here is the IPv6 version using **Google's website (`www.google.com`)**, without using Google Public DNS.
 
-#### Real-World Example: Google Public DNS IPv6
+### Real-World Example: Google IPv6 Address
 
-IPv6 (Internet Protocol Version 6) is a network-layer protocol designed to provide a much larger address space than IPv4.
+An IPv6 address identifies a network interface and helps devices communicate over a network. Websites such as Google can be reached using IPv6 addresses when IPv6 connectivity is available.
 
-**Example:**
-
-```text
-Website: dns.google
-IPv6 Address: 2001:4860:4860::8888
-```
-
-#### IPv6 Address Breakdown
+**Example: Google IPv6**
 
 ```text
-2001:4860:4860:0000:0000:0000:0000:8888
+Website: www.google.com
+Example IPv6 address: Obtain it using the command below.
 ```
 
-* **Total size:** 128 bits
-* **Number of groups:** 8
-* **Each group:** 16 bits
-* **Number system:** Hexadecimal (0–9 and A–F)
-* **Separator:** Colon (`:`)
+*Note: Google's IPv6 addresses can vary depending on location and DNS resolution.*
 
-#### How to Check Google's IPv6 Address
+**IPv6 breakdown:**
 
-**Windows Command Prompt:**
+IPv6 addresses contain 128 bits, divided into eight groups of 16 bits.
+
+```text
+Example format:
+2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+Total = 128 bits
+```
+
+Each group contains hexadecimal digits (0–9 and A–F). The `::` symbol can replace consecutive groups of zeros in a compressed address.
+
+**How to check Google's IPv6 address yourself:**
+
+On Windows, open Command Prompt and run:
+
+```cmd
+nslookup -type=AAAA www.google.com
+```
+
+On Kali Linux, open the terminal and run:
 
 ```bash
-nslookup -type=AAAA dns.google
+dig AAAA www.google.com
 ```
 
-**Kali Linux:**
+You can test IPv6 connectivity using:
 
 ```bash
-dig AAAA dns.google
+ping -6 -c 4 www.google.com
 ```
 
-**Cybersecurity Connection:** IPv6 knowledge helps security professionals analyze network traffic, investigate DNS records, and identify hosts on IPv6 networks.
+*Note: If you receive `Network is unreachable`, your system may not have a working IPv6 route.*
+
+**Cybersecurity connection:** Understanding IPv6 helps security professionals analyze network traffic, investigate DNS resolution, identify hosts, and troubleshoot network connectivity and security issues.
 
 
+
+<img width="690" height="1024" alt="image" src="https://github.com/user-attachments/assets/4d5c656a-245f-4678-a73b-11eaac423ebf" />
 
 
 
