@@ -185,3 +185,5 @@ An open port does not automatically mean a vulnerability exists. The service, it
 - Nmap reference guide: https://nmap.org/book/man.html
 
 
+<img width="690" height="1024" alt="image" src="https://github.com/user-attachments/assets/55348147-4d32-4712-827c-727ef9b07cb8" />
+
