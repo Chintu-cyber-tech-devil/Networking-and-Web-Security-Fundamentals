@@ -1,4 +1,4 @@
-DNS  is your Phone's contact list .You don't memorize your friends number-you search "Rahul" and it finds +91-98765-43210 DNS does the same google.com -> 142.250.193.46 without DNS ,You'd need to memorize the IP of every website you visit 
+# DNS  is your Phone's contact list .You don't memorize your friends number-you search "Rahul" and it finds +91-98765-43210 DNS does the same google.com -> 142.250.193.46 without DNS ,You'd need to memorize the IP of every website you visit 
 
 
  # DNS Resoluation step By step 
@@ -10,5 +10,97 @@ DNS  is your Phone's contact list .You don't memorize your friends number-you se
         5) TLD Server(.com)    ->      6) Auth.Nameserver 
 
      ** TP Address Returned    ->     Browser Connects  
- 
+
+
+
+# DNS (Domain Name System)
+
+## 1. What is DNS?
+
+DNS stands for Domain Name System.
+
+DNS translates human-readable domain names into IP addresses.
+
+Example:
+- Domain Name: google.com
+- IPv4 Address: 142.250.193.46
+
+DNS is like a phone's contact list. Instead of remembering a phone number, you search for a person's name. Similarly, DNS helps computers find the IP address associated with a domain name.
+
+Without DNS, users would need to remember the IP addresses of websites.
+
+## 2. DNS Resolution - Step by Step
+
+When you visit a website, DNS resolution commonly follows these steps:
+
+1. Browser Cache
+   The browser checks whether it already has a cached DNS result.
+
+2. Operating System Cache
+   The operating system checks its DNS cache.
+
+3. Recursive Resolver
+   The resolver checks its cache and performs further lookups if needed.
+
+4. Root DNS Server
+   The root server directs the resolver to the appropriate Top-Level Domain server.
+
+5. TLD Server
+   The TLD server directs the resolver to the domain's authoritative name server.
+
+6. Authoritative Name Server
+   The authoritative server returns the requested DNS record.
+
+7. IP Address Returned
+   The resolver returns the result, and the browser can connect to the destination.
+
+Note: Cached results can shorten this process.
+
+## 3. DNS Record Types
+
+| Record | Purpose | Cybersecurity Relevance |
+|---|---|---|
+| A | Maps a domain to an IPv4 address | Subdomain enumeration |
+| AAAA | Maps a domain to an IPv6 address | IPv6 security checks |
+| CNAME | Creates an alias for another domain name | Detecting potential subdomain takeover |
+| MX | Identifies mail servers | Email security analysis |
+| TXT | Stores text information | SPF, DKIM, and domain verification |
+| NS | Identifies authoritative name servers | DNS configuration auditing |
+| PTR | Maps an IP address to a hostname | Reverse DNS lookups |
+| SOA | Stores administrative information about a DNS zone | DNS zone auditing |
+
+## 4. DNS Security Risks
+
+### 1. DNS Spoofing
+An attacker attempts to provide false DNS information to redirect users.
+
+### 2. DNS Cache Poisoning
+False DNS records are inserted into a resolver's cache.
+
+### 3. DNS Tunneling
+DNS queries and responses are misused to carry data through DNS traffic.
+
+### 4. Subdomain Takeover
+A subdomain may point to an external service that is no longer claimed by its owner.
+
+### 5. DNS Zone Transfer
+An improperly configured DNS server may disclose DNS zone information.
+
+### 6. Email Spoofing
+Attackers may impersonate an email domain when email authentication is missing or incorrectly configured.
+
+## 5. DNS Security Best Practices
+
+- Use trusted DNS resolvers.
+- Enable DNSSEC validation where available.
+- Review DNS records regularly.
+- Remove unused DNS records.
+- Configure SPF, DKIM, and DMARC for email security.
+- Restrict DNS zone transfers to authorized servers.
+- Monitor unusual DNS queries and traffic patterns.
+
+Note: DNSSEC helps verify DNS data authenticity and integrity. It does not encrypt DNS queries.
+
+          
+         
                         
