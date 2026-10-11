@@ -19,15 +19,15 @@ TCP is a connection-oriented protocol that provides reliable and ordered data de
 
 ### Common Uses of TCP
 
-| Service | Port | Purpose |
-|---|---|---|
-| HTTP | 80 | Web communication |
-| HTTPS | 443 | Secure web communication |
-| SSH | 22 | Secure remote access |
-| FTP | 21 | File transfer control |
-| SMTP | 25 | Email transfer |
-| MySQL | 3306 | Database communication |
-| RDP | 3389 | Remote desktop access |
+| Service | Port | Purpose                  |
+|---      |---   |---                       |
+| HTTP    | 80   | Web communication        |
+| HTTPS   | 443  | Secure web communication |
+| SSH     | 22   | Secure remote access     |
+| FTP     | 21   | File transfer control    |
+| SMTP    | 25   | Email transfer           |
+| MySQL   | 3306 | Database communication   |
+| RDP     | 3389 | Remote desktop access    |
 
 Note: HTTP/3 uses QUIC over UDP instead of TCP.
 
@@ -48,33 +48,33 @@ UDP is a connectionless transport-layer protocol that sends data without providi
 
 ### Common Uses of UDP
 
-| Service | Port | Purpose |
-|---|---|---|
-| DNS | 53 | Domain name resolution |
-| DHCP | 67/68 | Automatic IP configuration |
-| VoIP | Varies | Internet voice calls |
-| Online Gaming | Varies | Real-time communication |
-| Live Streaming | Varies | Real-time media delivery |
-| QUIC / HTTP/3 | 443 commonly | Modern web communication |
+| Service       | Port         | Purpose 
+|---            |---           |---
+| DNS           | 53           | Domain name resolution 
+| DHCP          | 67/68        | Automatic IP configuration 
+| VoIP          | Varies       | Internet voice calls 
+| Online Gaming | Varies       | Real-time communication 
+| Live Streaming| Varies       | Real-time media delivery 
+| QUIC / HTTP/3 | 443 commonly | Modern web communication 
 
 Note: DNS can also use TCP, and the transport protocol used by an application depends on its design and configuration.
 
 ## 3. TCP vs UDP Comparison
 
-| Feature | TCP | UDP |
-|---|---|---|
-| Full Form | Transmission Control Protocol | User Datagram Protocol |
-| Connection | Connection-oriented | Connectionless |
-| Handshake | Three-way handshake | No TCP-style handshake |
-| Reliability | Reliable delivery | No built-in delivery guarantee |
-| Data Order | Preserves order | May arrive out of order |
-| Acknowledgment | Supported | Not built in |
-| Retransmission | Supported | Not built in |
-| Flow Control | Yes | No built-in flow control |
-| Congestion Control | Yes | No built-in congestion control |
-| Header Size | Minimum 20 bytes | 8 bytes |
-| Overhead | Higher | Lower |
-| Common Uses | Web, SSH, file transfer | DNS, VoIP, gaming |
+| Feature            | TCP                           | UDP                        
+|---                 |---                            |---                        
+| Full Form          | Transmission Control Protocol | User Datagram Protocol 
+| Connection         | Connection-oriented           | Connectionless 
+| Handshake          | Three-way handshake           | No TCP-style handshake 
+| Reliability        | Reliable delivery             | No built-in delivery guarantee 
+| Data Order         | Preserves order               | May arrive out of order 
+| Acknowledgment     | Supported                     | Not built in 
+| Retransmission     | Supported                     | Not built in  
+| Flow Control       | Yes                           | No built-in flow control 
+| Congestion Control | Yes                           | No built-in congestion control 
+| Header Size        | Minimum 20 bytes              | 8 bytes 
+| Overhead           | Higher                        | Lower 
+| Common Uses        | Web, SSH, file transfer       | DNS, VoIP, gaming 
 
 ## 4. Simple Real-World Example
 
