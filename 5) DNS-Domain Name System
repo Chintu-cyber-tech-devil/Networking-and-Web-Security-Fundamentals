@@ -58,16 +58,16 @@ Note: Cached results can shorten this process.
 
 ## 3. DNS Record Types
 
-| Record | Purpose | Cybersecurity Relevance |
-|---|---|---|
-| A | Maps a domain to an IPv4 address | Subdomain enumeration |
-| AAAA | Maps a domain to an IPv6 address | IPv6 security checks |
-| CNAME | Creates an alias for another domain name | Detecting potential subdomain takeover |
-| MX | Identifies mail servers | Email security analysis |
-| TXT | Stores text information | SPF, DKIM, and domain verification |
-| NS | Identifies authoritative name servers | DNS configuration auditing |
-| PTR | Maps an IP address to a hostname | Reverse DNS lookups |
-| SOA | Stores administrative information about a DNS zone | DNS zone auditing |
+|   Record        |      Purpose                                       |         Cybersecurity Relevance        |
+|   ---           |       ---                                          |                 ---                    |
+| A               | Maps a domain to an IPv4 address                   |            Subdomain enumeration       |
+| AAAA            | Maps a domain to an IPv6 address                   |        IPv6 security checks            |
+| CNAME           | Creates an alias for another domain name           | Detecting potential subdomain takeover |
+| MX              | Identifies mail servers                            |        Email security analysis         |
+| TXT             | Stores text information                            |     SPF, DKIM, and domain verification |
+| NS              | Identifies authoritative name servers              |      DNS configuration auditing        |
+| PTR             | Maps an IP address to a hostname                   |       Reverse DNS lookups              |
+| SOA             | Stores administrative information about a DNS zone |          DNS zone auditing             |
 
 ## 4. DNS Security Risks
 
