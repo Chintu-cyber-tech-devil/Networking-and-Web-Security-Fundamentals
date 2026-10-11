@@ -1,5 +1,14 @@
 DNS  is your Phone's contact list .You don't memorize your friends number-you search "Rahul" and it finds +91-98765-43210 DNS does the same google.com -> 142.250.193.46 without DNS ,You'd need to memorize the IP of every website you visit 
 
-# DNS Resoluation step By step 
-     1) Browser cache -> 2) Os Cache 
+
+ # DNS Resoluation step By step 
+       ***
+        1) Browser cache       ->      2)  Os Cache 
+
+        3) Recursive Resolver  ->      4) Root Server 
+
+        5) TLD Server(.com)    ->      6) Auth.Nameserver 
+
+     ** TP Address Returned    ->     Browser Connects  
+ 
                         
